@@ -3,11 +3,11 @@ using Producer.Models;
 
 namespace Producer.Services
 {
-    public class ProductServices
+    public class ProductService
     {
         DatabaseContext db;
 
-        public ProductServices()
+        public ProductService()
         {
             db = new DatabaseContext();
         }

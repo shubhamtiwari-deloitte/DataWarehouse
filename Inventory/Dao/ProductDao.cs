@@ -1,10 +1,9 @@
-﻿namespace Producer.Models
+﻿namespace Inventory.Dao
 {
-    public class Product
+    public interface ProductDao
     {
         public string productId { get; set; }
         public string productName { get; set; }
         public int quantity { get; set; }
-        public string status;
     }
 }
